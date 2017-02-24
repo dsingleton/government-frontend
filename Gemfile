@@ -20,6 +20,7 @@ gem 'unicorn', '4.8'
 gem 'rails-i18n', '>= 4.0.4'
 gem 'rails_translation_manager', '~> 0.0.2'
 gem 'rails-controller-testing', '~> 0.1'
+gem 'htmlentities', '4.3.4'
 gem 'govuk_ab_testing', '0.1.4'
 
 if ENV['API_DEV']
