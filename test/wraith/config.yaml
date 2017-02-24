@@ -24,73 +24,106 @@ domains:
 
 # (required) The paths to capture.
 paths:
-  case_study: '/government/case-studies/get-britain-building-carlisle-park'
-  case_study_translated: '/government/case-studies/doing-business-in-spain.es'
-  case_study_withdrawn: '/government/case-studies/terence-age-33-stoke-on-trent'
-  # Most visited case_study pages (2nd September 2016)
-  case_study_1: '/government/case-studies/ww1-canadian-vc-recipient-charles-smith-rutherford'
-  case_study_2: '/government/case-studies/the-expert-patients-programme'
-  case_study_3: '/government/case-studies/case-study-darwin-initiative-main-round-project'
-  case_study_4: '/government/case-studies/the-role-of-women-in-afghanistan'
-  case_study_5: '/government/case-studies/jaguar-land-rover-manufacturing-more-resource-efficient-cars'
-  case_study_6: '/government/case-studies/dojima-to-open-first-sake-brewery-in-the-uk'
-  case_study_7: '/government/case-studies/competition-law-case-studies'
-  case_study_8: '/government/case-studies/gls-lawyers-discuss-their-experiences-as-legal-trainees'
-  case_study_9: '/government/case-studies/ktp-programme-helps-northern-ireland-generate-business-growth'
-  case_study_10: '/government/case-studies/uk-china-cooperation-on-intellectual-property'
-
-  statistics_announcement_national: '/government/statistics/announcements/uk-armed-forces-quarterly-personnel-report-october-2015'
-  statistics_announcement_cancelled: '/government/statistics/announcements/diagnostic-imaging-dataset-for-september-2015'
-  # Most visited statistics_announcement pages (2nd September 2016)
-  statistics_announcement_1: '/government/statistics/announcements/national-curriculum-assessments-at-key-stage-2-2015-to-2016'
-  statistics_announcement_2: '/government/statistics/announcements/national-diet-and-nutrition-survey-results-from-years-5-and-6-combined-of-the-rolling-programme-for-2012-to-2013-and-2013-to-2014'
-  statistics_announcement_3: '/government/statistics/announcements/provisional-gcse-and-equivalent-results-in-england-2015-to-2016'
-  statistics_announcement_4: '/government/statistics/announcements/early-years-foundation-stage-profile-results-in-england-2015-to-2016'
-  statistics_announcement_5: '/government/statistics/announcements/local-alcohol-profiles-for-england-lape-august-2016-data-update'
-  statistics_announcement_6: '/government/statistics/announcements/dwp-quarterly-statistical-summary-august-2016'
-  statistics_announcement_7: '/government/statistics/announcements/baby-names-in-england-and-wales-2015'
-  statistics_announcement_8: '/government/statistics/announcements/enterprise-investment-schemes-eis-and-seed-enterprise-investment-schemes-seis'
-  statistics_announcement_9: '/government/statistics/announcements/esa-outcomes-of-work-capability-assessments-including-mandatory-reconsiderations-and-appeals-september-2016'
-  statistics_announcement_10: '/government/statistics/announcements/independent-schools-inspection-outcomes-official-statistics-as-at-31-march-2016'
-
-  take_part: '/government/get-involved/take-part/become-a-councillor'
-  # Most visited take_part pages (2nd September 2016)
-  take_part_1: '/government/get-involved/take-part/volunteer'
-  take_part_2: '/government/get-involved/take-part/national-citizen-service'
-  take_part_3: '/government/get-involved/take-part/set-up-a-new-school'
-  take_part_4: '/government/get-involved/take-part/help-run-a-charity'
-  take_part_5: '/government/get-involved/take-part/volunteer-as-a-school-governor'
-  take_part_6: '/government/get-involved/take-part/set-up-a-town-or-parish-council'
-  take_part_7: '/government/get-involved/take-part/start-a-public-service-mutual'
-  take_part_8: '/government/get-involved/take-part/take-over-a-local-pub-shop-or-green-space-for-the-community'
-  take_part_9: '/government/get-involved/take-part/create-a-community-library'
-
-  topical_event_about_page_slim: '/government/topical-events/battle-of-the-somme-centenary-commemorations/about'
-  topical_event_about_page: '/government/topical-events/ebola-virus-government-response/about'
-  # Most visited topical_event_about_page pages (2nd September 2016)
-  topical_event_about_page_1: '/government/topical-events/eu-referendum/about'
-  topical_event_about_page_2: '/government/topical-events/daesh/about'
-  topical_event_about_page_3: '/government/topical-events/anti-corruption-summit-london-2016/about'
-  topical_event_about_page_4: '/government/topical-events/national-apprenticeship-week-2016/about'
-  topical_event_about_page_5: '/government/topical-events/scottish-independence-referendum/about'
-  topical_event_about_page_6: '/government/topical-events/national-apprenticeship-awards/about'
-  topical_event_about_page_7: '/government/topical-events/supporting-syria-conference-2016/about'
-  topical_event_about_page_8: '/government/topical-events/farming/about'
-  topical_event_about_page_9: '/government/topical-events/girl-summit-2014/about'
-
-  working_group_long: '/government/groups/benefits-credits-consultation-group-bccg'
-  working_group_short: '/government/groups/aviation-statistics-team'
-  working_group_with_policies: '/government/groups/better-regulation-executive'
-  # Most visited working_group pages (2nd September 2016)
-  working_group_1: '/government/groups/claims-management-regulator'
-  working_group_2: '/government/groups/disposal-services-authority'
-  working_group_3: '/government/groups/public-services-network'
-  working_group_4: '/government/groups/defence-medical-services'
-  working_group_5: '/government/groups/scientific-advisory-committee-on-nutrition'
-  working_group_6: '/government/groups/defence-relationship-management'
-  working_group_7: '/government/groups/veterans-welfare-service'
-  working_group_8: '/government/groups/uk-national-screening-committee-uk-nsc'
-  working_group_9: '/government/groups/uk-council-for-child-internet-safety-ukccis'
+  world_location_news_article_1: /government/world-location-news/youth-mobility-scheme-2017-for-japanese-nationals.ja
+  world_location_news_article_2: /government/world-location-news/youth-mobility-scheme-2017-for-taiwanese-youth--2.zh-tw
+  world_location_news_article_3: /government/world-location-news/rear-admiral-simon-ancona-uk-acdsde-visit-to-thailand-13-14-october
+  world_location_news_article_4: /government/world-location-news/changes-for-settlement-visa-applications-submitted-in-pakistan
+  world_location_news_article_5: /government/world-location-news/264303.es
+  world_location_news_article_6: /government/world-location-news/applications-for-chevening-scholarships-open-3-august-in-thailand.th
+  world_location_news_article_7: /government/world-location-news/new-round-for-uk-bilateral-projects-programme-2017-2018-to-accept-bids-in-russia.ru
+  world_location_news_article_8: /government/world-location-news/youth-mobility-scheme-2017-for-taiwanese-youth--2
+  world_location_news_article_9: /government/world-location-news/changes-to-the-visa-service-in-russia--2
+  world_location_news_article_10: /government/world-location-news/changes-to-uk-visa-requirements-for-venezuelan-nationals.es-419
+  world_location_news_article_11: /government/world-location-news/applying-for-a-visa-in-italy-the-process.it
+  world_location_news_article_12: /government/world-location-news/how-to-apply-for-a-uk-visa.ar
+  world_location_news_article_13: /government/world-location-news/changes-to-the-visa-service-in-russia--2.ru
+  world_location_news_article_14: /government/world-location-news/changes-to-british-passport-services-in-australia
+  world_location_news_article_15: /government/world-location-news/youth-mobility-scheme-2017-for-japanese-nationals
+  world_location_news_article_16: /government/world-location-news/new-uk-visa-application-procedures-for-zimbabwe
+  world_location_news_article_17: /government/world-location-news/chevening-turkey-applications-for-201718-year-are-open
+  world_location_news_article_18: /government/world-location-news/changes-to-uk-visa-application-process-in-italy
+  world_location_news_article_19: /government/world-location-news/change-to-passport-service-for-british-nationals-in-new-zealand
+  world_location_news_article_20: /government/world-location-news/changes-to-visa-process-for-applicants-travelling-to-the-uk-for-more-than-6-months
+  world_location_news_article_21: /government/world-location-news/how-to-apply-for-a-uk-visa-from-spain
+  world_location_news_article_22: /government/world-location-news/changes-to-uk-visa-application-process-in-italy.it
+  world_location_news_article_23: /government/world-location-news/are-you-intending-to-transit-via-the-uk.ar
+  world_location_news_article_24: /government/world-location-news/new-round-for-uk-bilateral-projects-programme-2017-2018-to-accept-bids-in-russia
+  world_location_news_article_25: /government/world-location-news/no-airside-transit-visa-requiered-for-colombians-travelling-through-the-uk.es-419
+  world_location_news_article_26: /government/world-location-news/consular-awareness-week-in-greece
+  world_location_news_article_27: /government/world-location-news/passport-fees-for-british-nationals-overseas-reduced-by-35
+  world_location_news_article_28: /government/world-location-news/british-embassy-tirana-changes-in-visa-application-procedures.sq
+  world_location_news_article_29: /government/world-location-news/changes-to-uk-visa-requirements-for-venezuelan-nationals
+  world_location_news_article_30: /government/world-location-news/change-of-visa-application-centre-in-belgrade-serbia.sr
+  world_location_news_article_31: /government/world-location-news/new-marriage-procedures-for-british-nationals-in-turkey
+  world_location_news_article_32: /government/world-location-news/changes-to-secure-english-language-test-providers-for-uk-visas
+  world_location_news_article_33: /government/world-location-news/changes-to-the-uk-visa-application-process-in-ukraine
+  world_location_news_article_34: /government/world-location-news/important-announcement-from-uk-visas-immigration-international
+  world_location_news_article_35: /government/world-location-news/need-to-renew-your-british-passport-go-online
+  world_location_news_article_36: /government/world-location-news/visa-application-faq.ar
+  world_location_news_article_37: /government/world-location-news/new-uk-visa-application-centre-for-residents-of-jamaica-opens-in-kingston
+  world_location_news_article_38: /government/world-location-news/changes-to-visa-process-for-applicants-travelling-to-the-uk-from-japan-for-more-than-6-months.ja
+  world_location_news_article_39: /government/world-location-news/youth-mobility-scheme-2016-for-japanese-nationals.ja
+  world_location_news_article_40: /government/world-location-news/call-for-expressions-of-interest-potential-project-implementers
+  world_location_news_article_41: /government/world-location-news/how-to-apply-for-a-uk-visa-from-ecuador.es-419
+  world_location_news_article_42: /government/world-location-news/biometric-residence-permits-brp
+  world_location_news_article_43: /government/world-location-news/changes-to-the-visa-service-in-morocco
+  world_location_news_article_44: /government/world-location-news/changes-to-the-visa-service-in-ukraine.uk
+  world_location_news_article_45: /government/world-location-news/british-embassy-tirana-changes-in-visa-application-procedures
+  world_location_news_article_46: /government/world-location-news/applying-for-a-uk-visa-in-macedonia
+  world_location_news_article_47: /government/world-location-news/uk-opens-new-visa-application-centre-in-chiang-mai.th
+  world_location_news_article_48: /government/world-location-news/ukvi-launches-new-24-hour-super-priority-visa-service-in-nigeria
+  world_location_news_article_49: /government/world-location-news/kenya-uk-visas-immigration-launches-a-new-visa-application-centre-in-mombasa
+  world_location_news_article_50: /government/world-location-news/online-payment-mandatory-for-uk-visa-applications-in-india
+  world_location_news_article_51: /government/world-location-news/travel-advice-england-cricket-team-tour-to-india
+  world_location_news_article_52: /government/world-location-news/updated-list-of-financial-institutions-for-uk-visa-applications-in-bangladesh
+  world_location_news_article_53: /government/world-location-news/324388.es
+  world_location_news_article_54: /government/world-location-news/brit-in-thailand-honoured-by-uk-pm-for-supporting-those-in-need
+  world_location_news_article_55: /government/world-location-news/uk-visa-support-for-qataris-and-expats-ahead-of-summer-period.ar
+  world_location_news_article_56: /government/world-location-news/new-marriage-procedures-for-british-nationals-in-china
+  world_location_news_article_57: /government/world-location-news/changes-to-the-uk-visa-application-process-in-belgium
+  world_location_news_article_58: /government/world-location-news/letting-your-passport-expire-can-cost-more-than-you-think
+  world_location_news_article_59: /government/world-location-news/changes-to-uk-visa-application-process-in-germany.de
+  world_location_news_article_60: /government/world-location-news/the-great-britain-debate-2016-17
+  world_location_news_article_61: /government/world-location-news/joint-statement-by-heads-of-mission-on-kenyas-2017-elections
+  world_location_news_article_62: /government/world-location-news/no-airside-transit-visa-requiered-for-colombians-travelling-through-the-uk
+  world_location_news_article_63: /government/world-location-news/how-to-apply-for-a-uk-visa
+  world_location_news_article_64: /government/world-location-news/ambassadors-video-message-paul-madden-arrives-in-japan.ja
+  world_location_news_article_65: /government/world-location-news/chevening-turkey-applications-for-201718-year-are-open.tr
+  world_location_news_article_66: /government/world-location-news/uk-delegation-explores-collaboration-on-healthcare-with-northwest-china
+  world_location_news_article_67: /government/world-location-news/changes-to-uk-visa-application-process-in-germany
+  world_location_news_article_68: /government/world-location-news/important-information-for-uk-visa-applicants--4
+  world_location_news_article_69: /government/world-location-news/high-level-british-delegation-visits-sudan
+  world_location_news_article_70: /government/world-location-news/349096.ja
+  world_location_news_article_71: /government/world-location-news/canada-travel-advice-for-davis-cup-2017
+  world_location_news_article_72: /government/world-location-news/singapore-commonwealth-scholarships-and-fellowships-in-innovation
+  world_location_news_article_73: /government/world-location-news/294626.zh-tw
+  world_location_news_article_74: /government/world-location-news/opening-of-new-uk-visa-application-centre-vac-in-nairobi
+  world_location_news_article_75: /government/world-location-news/applying-for-a-uk-visa-you-can-now-pay-priority-visa-fee-online
+  world_location_news_article_76: /government/world-location-news/mexico-prosperity-fund-call-for-proposals-2016
+  world_location_news_article_77: /government/world-location-news/are-you-intending-to-transit-via-the-uk
+  world_location_news_article_78: /government/world-location-news/uk-visa-application-centre-is-moving-to-new-location.th
+  world_location_news_article_79: /government/world-location-news/thailand-and-free-trade.th
+  world_location_news_article_80: /government/world-location-news/be-passport-aware-check-passport-expiry-before-booking-trips
+  world_location_news_article_81: /government/world-location-news/changes-to-uk-visa-application-centres-in-south-africa
+  world_location_news_article_82: /government/world-location-news/british-high-commission-port-louis-to-host-fintech-conference
+  world_location_news_article_83: /government/world-location-news/changes-to-the-uk-visa-application-process-in-egypt--2.ar
+  world_location_news_article_84: /government/world-location-news/international-english-language-testing-system
+  world_location_news_article_85: /government/world-location-news/changes-to-british-passport-services-in-pakistan
+  world_location_news_article_86: /government/world-location-news/24-hour-uk-visa-service-launches-in-thailand.th
+  world_location_news_article_87: /government/world-location-news/prosperity-fund-brazil-2016-bid-round-is-now-open
+  world_location_news_article_88: /government/world-location-news/the-british-embassy-brussels-advice-for-a-great-holiday-in-the-uk
+  world_location_news_article_89: /government/world-location-news/advice-for-dual-nationals-applying-for-a-uk-passport
+  world_location_news_article_90: /government/world-location-news/designing-world-class-solutions-for-egyptian-schools.ar
+  world_location_news_article_91: /government/world-location-news/travel-to-the-uk-by-filipinos-grows-strongly
+  world_location_news_article_92: /government/world-location-news/290702.ja
+  world_location_news_article_93: /government/world-location-news/347879.es
+  world_location_news_article_94: /government/world-location-news/changes-to-british-passport-services-in-thailand--2
+  world_location_news_article_95: /government/world-location-news/uk-visa-centre-opens-in-erbil
+  world_location_news_article_96: /government/world-location-news/comment-on-the-us-sanctions-against-rs-president-dodik
+  world_location_news_article_97: /government/world-location-news/new-uk-visa-and-immigration-services-application-service
+  world_location_news_article_98: /government/world-location-news/applying-for-a-visa-in-italy-the-process
+  world_location_news_article_99: /government/world-location-news/changes-to-english-language-certification-for-visa-applications--3
+  world_location_news_article_100: /government/world-location-news/singapore-commonwealth-fellowships-in-innovation
 
 # (required) Screen widths (and optional height) to resize the browser to before taking the screenshot.
 screen_widths:
@@ -125,3 +158,5 @@ mode: diffs_first
 
 # (optional) Choose to run Wraith in verbose mode, for easier debugging. Default: false
 verbose: true
+
+phantomjs_options: --ssl-protocol=tlsv1
