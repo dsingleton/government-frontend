@@ -39,6 +39,10 @@ class TravelAdvicePresenter < ContentItemPresenter
     }
   end
 
+  def country_name
+    content_item["details"]["country"]["name"]
+  end
+
   def related_items
     items = ordered_related_items.map do |link|
       {
@@ -141,10 +145,6 @@ private
     else
       parts.find { |part| part["slug"] == @part_slug }
     end
-  end
-
-  def country_name
-    content_item["details"]["country"]["name"]
   end
 
   def parts
